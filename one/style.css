@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: darkblue;
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-justify-center {
+    justify-content: center;
+    gap: .5rem;
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 1rem;
+    transition: all .3s linear;
+}
+
+.link-btn:hover {
+    background-color: white;
+    color: darkblue;
+}
